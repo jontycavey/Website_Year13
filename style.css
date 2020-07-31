@@ -1,45 +1,12 @@
 body {
-background-color: grey;
-margin: 0;
-}
-
-#main_bakground {
-	height: 100%;
-	width: 100%;
-
-}
-
-#site_wrapper {
-	background-color: red;
-	height: 100%;
-	overflow-x: hidden;
-	width: 90%;
-	margin: auto;
-	position: relative;
-}
-
-#main_header {
-	padding-top: 3%;
-	width: 100%;
-	height: 100%;
-
-}
-
-#background_block {
-	width: 20%;
-}
-
-#main_footer {
-    width: 100%;
-    background-color: purple;
-    vertical-align: middle;
-    height: 100px;
-    position: relative;
+	background-image: url(file://ihssvr1/studentmydocs$/jonty.cavey/My%20Documents/Website%20Year%2013%20-%20Jonty/images/outer_background.jpg);
+	background-color: #F54B69;
+	margin: 0;
 }
 
 h1 {
-	font-size: 120px;
-	font-family: 'Marcellus', serif;
+	font-size: 100px;
+	font-family: Oregano;
 	float: top;
 	text-align: center;
 }
@@ -48,4 +15,15 @@ p {
 	font-family: 'Marcellus', serif;
 	text-align: center;
 	font-size: 23px;
+}
+
+.row {
+	color: white;	
+	background-color: #98DFEA;
+	width: 100%;
+	height: 100%;
+}
+
+.col-sm-4 {
+
 }
