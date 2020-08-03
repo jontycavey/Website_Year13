@@ -2,16 +2,17 @@
 <html lang="en">
 
 <head>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-	<script rel="javascript" href="java/javascript.js"></script>
 	<link rel="icon" href="">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">  
 	<title>Aurora</title>
+
 </head>
 
 <body>
@@ -23,10 +24,22 @@
   <a href="contact_page.html">Contact</a>
 </div>
 
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
 <span onclick="openNav()">open</span>
 
 
 	<div class="jumbotron text-center">
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
 	<h1>Welcome To Aroura</h1>
 	</div>
 
