@@ -7,6 +7,7 @@ body {
 	background-color: #2c302e;
 	margin: 0;
 	padding: 0;
+	color: #f45b69;
 }
 
 h1 {
@@ -14,28 +15,67 @@ h1 {
 	text-align: center;
 	color: white;
 	font-family: 'Titan One', cursive;
+	color: #98DFEA
 }
 
 h2 {
 	font-size: 48px;
 	font-family: 'Signika', sans-serif;
 	text-align: left;
+	color: #98DFEA
 }
 
 p {
-	text-align: center;
+	text-align: left;
 	font-size: 23px;
 	font-family: 'Martel', serif;
 }
 
+ul {
+	list-style-type: none;
+}
+
+.list_head {
+	font-size: 23px;
+	color: white;
+	text-align: left;
+}
+
+.list_body {
+	font-size: 15px;
+	color: #98DFEA;
+	text-align: left;
+}
+
+li a:hover {
+	color: #f45b69;
+}
+
 .header {
+	padding-top: 30px;
 }
 
 span {
+	color: #98DFEA;
+	cursor: pointer;
+	font-size: 40px;
+}
+
+img {
+	filter: saturate(9);
 }
 
 .info_box {
 	padding: 100px;
+}
+
+.footer {
+	background-color: rgba(44, 48, 46, 0.5);
+	height: 190px;
+}
+
+.footer_mid {
+	font-family: 'Martel', serif;
 }
 
 .sidenav {
@@ -49,19 +89,20 @@ span {
 	overflow-x: hidden; 
 	padding-top: 60px; 
 	transition: 0.5s; 
+	background-color: #2c302e;
 }
 
 .sidenav a {
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
 	font-size: 25px;
-	color: #f45b69;
+	color: #98DFEA;
 	display: block;
 	transition: 0.8s;
 }
 
 .sidenav a:hover {
-	color: #2c302e;
+	color: #f45b69;
 }
 
 .sidenav .closebtn {
