@@ -4,17 +4,117 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-	<link rel="icon" href="">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="file://ihssvr1/studentmydocs$/jonty.cavey/My%20Documents/Website%20Year%2013%20-%20Jonty/images/jelly_logo.png">
+	<link rel="stylesheet" href="css/style.css"> 
+	<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Martel:wght@300&display=swap" rel="stylesheet">
 	<title>Aurora</title>
 </head>
 
 <body>
-1
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="about_page.html">About</a>
+  <a href="store_page.html">Store</a>
+  <a href="contact_page.html">Contact</a>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<div class="col-1 col-s-1 logo header">
+<img src="file://ihssvr1/studentmydocs$/jonty.cavey/My%20Documents/Website%20Year%2013%20-%20Jonty/images/jelly_logo.png" style="width:100px;height:100px;opacity:50%;padding-left:130px;padding-top:20px;">
+</div>
+
+<div class="col-10 col-s-11 header">
+	<h1>About</h1>
+</div>
+
+<div class="col-1 col-s-1 nav header">
+	<span onclick="openNav()">&#9776;</span>
+</div>
+
+<div class="row">
+	<div class="col-5 col-s-5 info_box">
+		<h2>What do we do here<br> at Jelly?</h2>
+		<p>We, as a company, are souley an advertisement site for indie developers to show off their creations. This is a place where they can release behind the scenes images and spoilers for their games to create some hype.</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-5 col-s-5 info_box">
+		<h2>What does it mean to <br>become a member?</h2>
+		<p>Members have the right to freely advertise their creations using our website aslong as it doesn't break our TOS. Members will have to pay a small fee towards Jelly so we can keep this site up for them.</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-12 col-s-12 info_box" id="review">
+		<h2>Don't trust us? <br>Trust our user reviews</h2>
+		<p>"Very nice website, Helped me get people to play my games!" - David</p>
+		<p>"Was a little worried about them feeing me but it really was a small amount" - Jackson</p>
+		<p>"This is the best way I have been advertising my games" - Brody</p>
+	</div>
+</div>
+
+<div class="row">
+<div class="col-3 col-s-3 logo footer">
+<img src="file://ihssvr1/studentmydocs$/jonty.cavey/My%20Documents/Website%20Year%2013%20-%20Jonty/images/jelly_logo.png" style="width:100px;height:100px;opacity:50%;padding-left:130px;padding-top:50px;">
+</div>
+
+<div class="col-3 col-s-3 footer footer_mid">
+	<ul>
+		<li class="list_head">
+		Contact
+			<ul>
+				<li class="list_body">
+					<a href="contact_page.html#support">Support</a>
+				</li>
+				<li class="list_body">
+					<a href="contact_page.html#member">Membership</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="col-3 col-s-3 footer footer_mid">
+	<ul>
+		<li class="list_head">
+		Store
+			<ul>
+				<li class="list_body">
+					<a href="store_page.html#new_games">New Games</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="col-3 col-s-3 footer footer_mid">
+	<ul>
+		<li class="list_head">
+		Want to Know More?
+			<ul>
+				<li class="list_body">
+					<a href="about_page.html#review">Reviews</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+</div>
+
 </body>
 
 </html>

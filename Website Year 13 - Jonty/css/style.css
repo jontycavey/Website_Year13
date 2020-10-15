@@ -8,6 +8,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #f45b69;
+	-webkit-animation: fadein 1s;
 }
 
 h1 {
@@ -51,6 +52,11 @@ li a:hover {
 	color: #f45b69;
 }
 
+li a {
+  text-decoration: none;
+  color: #98DFEA;
+}
+
 .header {
 	padding-top: 30px;
 }
@@ -61,8 +67,16 @@ span {
 	font-size: 40px;
 }
 
-img {
+.logo {
 	filter: saturate(9);
+}
+
+img:hover {
+	opacity: 0.7;
+}
+
+.indie_games {
+	text-align: center;
 }
 
 .info_box {
@@ -167,3 +181,39 @@ img {
 	display: table;
 	background-color: rgba(44, 48, 46, 0.5);
 }
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
